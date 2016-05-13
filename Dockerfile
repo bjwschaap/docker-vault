@@ -6,7 +6,7 @@ COPY repositories /etc/apk/repositories
 
 RUN apk add --update vault     \
  && rm -rf /var/cache/apk/*    \
- && rm -rf /usr/share/man 
+ && rm -rf /usr/share/man
 
 COPY vault.hcl /etc/vault.hcl
 
