@@ -26,6 +26,7 @@ docker run -d -p 8200:8200 -v $(pwd)/vault.hcl:/etc/vault.hcl --cap-add IPC_LOCK
 Clone the repo:
 ```
 git clone https://github.com/bjwschaap/docker-vault.git
+cd docker-vault
 ```
 
 Build the image:
