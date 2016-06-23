@@ -40,5 +40,6 @@ docker run -d -p 8200:8200 -v $(pwd)/vault.hcl:/etc/vault.hcl --cap-add IPC_LOCK
 ```
 
 ### Contributing
-Contributions are always welcome! Just file an issue on Github and create a pull
-request.
+Contributions are always welcome! Just file an
+[issue](https://github.com/bjwschaap/docker-vault/issues) on Github and create
+a pull request.
