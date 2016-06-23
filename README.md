@@ -39,6 +39,12 @@ And run it:
 docker run -d -p 8200:8200 -v $(pwd)/vault.hcl:/etc/vault.hcl --cap-add IPC_LOCK --name vault [yourname]/vault
 ```
 
+### Using Vault
+I will not document how to use Vault, since very good documentation is provided
+by Hashicorp on the Vault website.
+[This](https://www.vaultproject.io/docs/concepts/index.html) is a good starting
+point.
+
 ### Contributing
 Contributions are always welcome! Just file an
 [issue](https://github.com/bjwschaap/docker-vault/issues) on Github and create
