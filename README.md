@@ -1,6 +1,6 @@
 # docker-vault
 A minimal Alpine Linux container to run [Hashicorp Vault](http://vaultproject.io).
-This image takes the Vault version provided by Alpine package management.
+This image takes the Vault version provided by Alpine [package management](https://pkgs.alpinelinux.org/packages?name=vault&branch=&repo=&arch=&maintainer=).
 
 ## Run from Docker Hub
 You can run this image directly from Docker hub. This image does not include a
