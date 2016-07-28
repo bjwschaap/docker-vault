@@ -1,3 +1,4 @@
+[![Docker Repository on Quay](https://quay.io/repository/bjwschaap/alpine-vault/status "Docker Repository on Quay")](https://quay.io/repository/bjwschaap/alpine-vault)
 # docker-vault
 A minimal Alpine Linux container to run [Hashicorp Vault](http://vaultproject.io).
 This image takes the Vault version provided by Alpine [package management](https://pkgs.alpinelinux.org/packages?name=vault&branch=&repo=&arch=&maintainer=).
